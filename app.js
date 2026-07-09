@@ -1562,11 +1562,26 @@ let fbDocRef = null;
 let fbUnsubscribe = null;
 
 function initFirebase() {
-    const fbActive = localStorage.getItem("xuri_firebase_active") === "true";
-    if (!fbActive) return;
+    let configStr = localStorage.getItem("xuri_firebase_config");
+    let fbActive = localStorage.getItem("xuri_firebase_active");
+    
+    // Configuración predeterminada proporcionada por el usuario
+    if (!configStr) {
+        const defaultConfig = {
+            apiKey: "AIzaSyDvS6yu9yMw18F-PfC8t5oOskPqlfEZyjM",
+            authDomain: "control-legal-rrhh-ecuador.firebaseapp.com",
+            projectId: "control-legal-rrhh-ecuador",
+            storageBucket: "control-legal-rrhh-ecuador.firebasestorage.app",
+            messagingSenderId: "204586757494",
+            appId: "1:204586757494:web:1b6fde06b3f066c75e1e57"
+        };
+        localStorage.setItem("xuri_firebase_config", JSON.stringify(defaultConfig));
+        localStorage.setItem("xuri_firebase_active", "true");
+        configStr = JSON.stringify(defaultConfig);
+        fbActive = "true";
+    }
 
-    const configStr = localStorage.getItem("xuri_firebase_config");
-    if (!configStr) return;
+    if (fbActive !== "true") return;
 
     try {
         const config = JSON.parse(configStr);
