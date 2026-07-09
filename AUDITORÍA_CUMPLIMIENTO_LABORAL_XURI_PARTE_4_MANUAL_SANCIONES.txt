@@ -1,0 +1,113 @@
+MANUAL EXPLICATIVO DE CUMPLIMIENTO LABORAL
+PARTE 4: FUNDAMENTO LEGAL + SANCIONES PUNTO A PUNTO
+XURI S.A. | 67 Trabajadores | Ecuador 2026
+INTRODUCCIÓN
+Este documento explica PARA CADA REQUISITO del checklist anterior:
+1. ¿Por qué es obligatorio?
+2. ¿Cuál es la base legal (artículos, acuerdos ministeriales)?
+3. ¿Qué sucede si NO se cumple (SANCIONES ESPECÍFICAS)?
+4. ¿Cuál es el IMPACTO FINANCIERO?
+5. ¿Ejemplos de casos reales?
+1️⃣ CONTRATOS REGISTRADOS EN SUT
+¿POR QUÉ ES OBLIGATORIO?
+El registro en SUT es la PRUEBA OFICIAL de relación laboral legal. Sin registro = trabajador puede clamar derechos laborales sin importar papeles firmados.
+BASE LEGAL:
+• Código del Trabajo Art. 16-17
+• Acuerdo Ministerial 001-2020 (Sistema SUT)
+SANCIONES SI NO SE CUMPLE:
+🔴 DEMANDA: Reintegro + salarios caídos + XIII + XIV + daño moral
+🔴 MULTA MDT: 20 SBU por trabajador sin contrato SUT
+IMPACTO FINANCIERO (1 trabajador 2 años sin SUT):
+• Salarios caídos (24 meses × $500): $12,000
+• XIII y XIV adeudados: $8,333
+• Daño moral: $2,000
+• Multa MDT (20 SBU): $2,800
+TOTAL: $25,133 por UNA PERSONA
+2️⃣ REGLAMENTO INTERNO DE TRABAJO (RIT)
+¿POR QUÉ ES OBLIGATORIO?
+Define reglas de trabajo. Sin RIT = despidos no tienen justificación legal = trabajador gana demanda automáticamente.
+BASE LEGAL:
+• Código del Trabajo Art. 97-107
+SANCIONES:
+🔴 DESPIDO SIN RIT = DESPIDO INJUSTIFICADO (pierdes demanda seguro)
+🔴 REINTEGRO OBLIGATORIO + salarios caídos + daño moral
+IMPACTO: $9,633 por UN despido sin RIT
+3️⃣ DÉCIMO TERCER SUELDO (XIII) NO PAGADO
+¿POR QUÉ ES OBLIGATORIO?
+Derecho laboral adquirido cada mes. Ley obliga pago anual antes 24 de diciembre.
+SANCIONES:
+🔴 DEMANDA + intereses 10% anual
+🔴 MULTA MDT: 5-20 SBU
+IMPACTO (2 años sin pagar XIII a 67 personas):
+67 × $500 × 2 años = $67,000 adeudado + $13,400 intereses = $80,400
+4️⃣ AFILIACIÓN IESS + APORTES MENSUALES
+¿POR QUÉ ES OBLIGATORIO?
+Seguro social estatal. Obligatorio DÍA 1. Si no afilia, trabajador queda sin cobertura médica = responsabilidad empresa.
+SANCIONES:
+🔴 AUDITORÍA IESS: Multa 5-10% sobre aporte NO pagado
+🔴 EMBARGO directo de cuentas bancarias
+🔴 CIERRE DE OPERACIONES (semanas/meses)
+IMPACTO (3 meses sin pagar aportes IESS):
+Aportes adeudados: $20,583 + Multa 10%: $2,058 + Multa 20 SBU: $2,800 = $25,441
+5️⃣ COMITÉ PARITARIO + ACTAS MENSUALES
+¿POR QUÉ ES OBLIGATORIO?
+ESCUDO LEGAL ante accidentes. Las actas PRUEBAN que empresa monitoreaba seguridad. Sin actas + accidente = culpa patronal automática (responsabilidad ILIMITADA).
+SANCIONES (EN CASO ACCIDENTE SIN ACTAS):
+🔴 DEMANDA: Indemnización por daño corporal (ILIMITADA)
+🔴 DAÑO MORAL: 50-100% salario × años incapacidad
+🔴 CIERRE TEMPORAL de operaciones
+IMPACTO (accidente leve: fractura brazo, 6 meses incapacidad):
+Hospitalización: $8,000 + Incapacidad 6 meses: $3,000 + Daño moral: $5,000-$10,000 = $16,000-$21,000 POR UN ACCIDENTE
+6️⃣ CUOTA DISCAPACIDAD (4%)
+¿POR QUÉ ES OBLIGATORIO?
+Política de inclusión laboral. XURI con 67 = debe tener 3 trabajadores con discapacidad.
+SANCIONES:
+🔴 MULTA ANUAL: 1 SBU por puesto vacío
+🔴 Si XURI no tiene ninguno: 3 SBU anuales ($420)
+IMPACTO: $420/año recurrente (si no corriges, es multa eterna)
+7️⃣ PLAN DE IGUALDAD Y NO DISCRIMINACIÓN
+¿POR QUÉ ES OBLIGATORIO?
+Obligatorio para empresas 50+. Previene demandas por brecha salarial (hombre vs mujer).
+SANCIONES:
+🔴 DEMANDA por discriminación y brecha salarial
+🔴 PAGO de atrasos + daño moral por discriminación
+IMPACTO (brecha $50/mes entre 20 mujeres, 2 años):
+Atrasos: $24,000 + Daño moral: $10,000 + Multa MDT: $2,800 = $36,800
+8️⃣ VACACIONES ACUMULADAS NO REGISTRADAS
+¿POR QUÉ ES IMPORTANTE?
+15 días anuales. Sin registro = pasivo invisible que crece cada año.
+PASIVO GENERADO (67 trabajadores × 15 días/año):
+Año 1: $16,735 acumulado
+Año 2: $33,470 acumulado
+Año 3: $50,205 acumulado ← Sin registro, empresa se da cuenta tarde
+═══════════════════════════════════════════════════════════
+RESUMEN: SANC IONES TOTALES POR INCUMPLIMIENTO
+INCUMPLIMIENTO
+SANCIÓN
+COSTO
+Contrato sin SUT
+Demanda reintegro
+$25,000
+RIT no aprobado
+Despido se anula
+$10,000
+XIII no pagado 2 años
+Demanda + intereses
+$80,400
+Atraso IESS 3 meses
+Embargo + multa
+$25,000
+Accidente sin Comité
+Responsabilidad ilimitada
+$50,000+
+Brecha salarial 2 años
+Demanda discriminación
+$36,800
+Vacaciones 3 años no pagadas
+Pasivo acumulado
+$50,000
+TOTAL EXPOSICIÓN POTENCIAL
+$277,200+
+CONCLUSIÓN FINAL:
+Si XURI NO cumple normativa laboral, la exposición financiera es mínimo $277,200 en sanciones, multas y demandas. Por cada año de incumplimiento, esta cifra CRECE EXPONENCIALMENTE.
+Invertir $30,000-$50,000 ahora en arreglarlo TODO es "seguro" contra pérdida de $277,000+ mañana.

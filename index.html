@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XURI Control - Cumplimiento Laboral</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- SheetJS Library for Excel Upload parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body class="dark-theme">
+    <!-- Pantalla de Bloqueo de Acceso (Login) -->
+    <div id="loginLockScreen" class="login-lock-overlay">
+        <div class="login-lock-card bg-glass-dark">
+            <div class="login-logo-container">
+                <div class="login-logo-circle">
+                    <i class="fa-solid fa-lock text-accent" style="color: var(--status-ok);"></i>
+                </div>
+            </div>
+            <h2>XURI Control</h2>
+            <p>Sistema de Control de Cumplimiento Laboral</p>
+            
+            <form id="loginForm" style="margin-top: 20px; width: 100%;">
+                <div class="form-group" style="text-align: left; margin-bottom: 15px;">
+                    <label for="loginPasswordInput" class="form-label">Código de Acceso *</label>
+                    <div style="position: relative; display: flex; align-items: center;">
+                        <input type="password" id="loginPasswordInput" class="form-control" placeholder="Ingrese la contraseña" style="padding-right: 40px; width: 100%;" required autocomplete="current-password">
+                        <button type="button" id="toggleLoginPasswordBtn" style="position: absolute; right: 10px; background: none; border: none; color: var(--text-secondary); cursor: pointer; padding: 5px;">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="form-group" style="text-align: left; display: flex; align-items: center; gap: 8px; margin-top: 10px;">
+                    <input type="checkbox" id="loginRememberMe" style="width: 16px; height: 16px; cursor: pointer;">
+                    <label for="loginRememberMe" class="form-label" style="margin-bottom: 0; cursor: pointer; font-size: 13px; color: var(--text-secondary);">Recordar acceso en esta PC</label>
+                </div>
+                
+                <div id="loginErrorMessage" class="text-danger hidden" style="font-size: 13px; margin-top: 15px; text-align: center; color: var(--status-pending);">
+                    <i class="fa-solid fa-triangle-exclamation"></i> Contraseña incorrecta. Intente de nuevo.
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block" style="margin-top: 20px; width: 100%;">
+                    <i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesión
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <i class="fa-solid fa-shield-halved logo-icon"></i>
+                <div class="logo-text">
+                    <h1>XURI <span>S.A.</span></h1>
+                    <p>CONTROL LABORAL</p>
+                </div>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-tab="dashboard">
+                    <i class="fa-solid fa-chart-pie"></i>
+                    <span>Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="workers">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Trabajadores</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="requirements">
+                    <i class="fa-solid fa-folder-open"></i>
+                    <span>Requisitos</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="batch">
+                    <i class="fa-solid fa-file-excel"></i>
+                    <span>Carga Masiva</span>
+                </a>
+                <a href="#" class="nav-item" data-tab="backup">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Copia de Seguridad</span>
+                </a>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="theme-toggle" id="themeToggleBtn">
+                    <i class="fa-solid fa-moon icon-dark"></i>
+                    <i class="fa-solid fa-sun icon-light"></i>
+                    <span class="theme-text">Modo Oscuro</span>
+                </div>
+                <div class="version-tag">v1.0.0</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Header -->
+            <header class="content-header">
+                <div class="header-title">
+                    <h2 id="currentTabTitle">Panel de Resumen</h2>
+                    <p id="currentTabSub">Indicadores y alertas clave en tiempo real</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-outline" id="printReportBtn">
+                        <i class="fa-solid fa-print"></i> Imprimir Reporte
+                    </button>
+                    <button class="btn btn-primary" id="quickAddWorkerBtn">
+                        <i class="fa-solid fa-plus"></i> Nuevo Trabajador
+                    </button>
+                </div>
+            </header>
+
+            <!-- Tab: Dashboard -->
+            <section class="tab-panel active" id="tab-dashboard">
+                <!-- Status Cards Grid -->
+                <div class="metrics-grid">
+                    <div class="metric-card bg-gradient-primary">
+                        <div class="metric-info">
+                            <h3>Porcentaje General</h3>
+                            <span class="metric-value" id="statCompliancePct">0%</span>
+                            <p class="metric-sub">Cumplimiento total legal</p>
+                        </div>
+                        <div class="metric-chart-donut">
+                            <svg class="donut" width="80" height="80" viewBox="0 0 40 40">
+                                <circle class="donut-hole" cx="20" cy="20" r="16" fill="transparent"></circle>
+                                <circle class="donut-ring" cx="20" cy="20" r="16" fill="transparent" stroke="rgba(255,255,255,0.15)" stroke-width="4"></circle>
+                                <circle class="donut-segment" id="donutSegment" cx="20" cy="20" r="16" fill="transparent" stroke="#ffffff" stroke-width="4" stroke-dasharray="0 100" stroke-dashoffset="25"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon-box orange">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Trabajadores</h3>
+                            <span class="metric-value" id="statTotalWorkers">0</span>
+                            <p class="metric-sub">Personal registrado</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon-box green">
+                            <i class="fa-solid fa-circle-check"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>Expedientes OK</h3>
+                            <span class="metric-value" id="statWorkersOk">0</span>
+                            <p class="metric-sub">Con 100% de requisitos</p>
+                        </div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-icon-box yellow">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </div>
+                        <div class="metric-info">
+                            <h3>En Proceso</h3>
+                            <span class="metric-value" id="statWorkersProgress">0</span>
+                            <p class="metric-sub">Requisitos en revisión</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lower Layout -->
+                <div class="dashboard-details">
+                    <!-- Global File Check Status -->
+                    <div class="details-card main-chart-card">
+                        <div class="card-header">
+                            <h3>Cumplimiento por Requisito Obligatorio</h3>
+                            <span class="badge badge-info">Físico vs Digital</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="req-bars-container" id="dashboardReqBars">
+                                <!-- Populated dynamically by JS -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alerts and Important Tasks -->
+                    <div class="details-card alerts-card">
+                        <div class="card-header">
+                            <h3>Alertas de Cumplimiento Crítico</h3>
+                            <span class="alert-count-badge" id="alertCount">0</span>
+                        </div>
+                        <div class="card-body scrollable">
+                            <div class="alerts-list" id="dashboardAlertsList">
+                                <!-- Populated dynamically by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Workers -->
+            <section class="tab-panel" id="tab-workers">
+                <!-- Filters & Search -->
+                <div class="table-actions-row">
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" id="workerSearchInput" placeholder="Buscar trabajador por nombre o cédula...">
+                    </div>
+                    <div class="filters-group">
+                        <select id="filterStatusSelect" class="form-select">
+                            <option value="all">Todos los Estados</option>
+                            <option value="OK">Estado: OK (Completado)</option>
+                            <option value="En Proceso">Estado: En Proceso</option>
+                            <option value="Pendiente">Estado: Pendiente</option>
+                        </select>
+                        <select id="filterComplianceSelect" class="form-select">
+                            <option value="all">Filtro de Cumplimiento</option>
+                            <option value="incomplete">Incompletos (< 100%)</option>
+                            <option value="complete">Completos (100%)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Workers Table -->
+                <div class="table-card">
+                    <div class="table-responsive">
+                        <table class="data-table" id="workersTable">
+                            <thead>
+                                <tr>
+                                    <th>Nombre del Trabajador</th>
+                                    <th>Cédula / ID</th>
+                                    <th>Avance General</th>
+                                    <th>Físico</th>
+                                    <th>Digital</th>
+                                    <th>Estado</th>
+                                    <th class="text-right">Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="workersTableBody">
+                                <!-- Populated dynamically by JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-empty-state hidden" id="workersEmptyState">
+                        <i class="fa-solid fa-users-slash empty-icon"></i>
+                        <h4>No se encontraron trabajadores</h4>
+                        <p>Prueba ajustando los filtros o registra uno nuevo.</p>
+                        <button class="btn btn-primary" onclick="openAddWorkerModal()">
+                            <i class="fa-solid fa-plus"></i> Registrar Trabajador
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Requirements -->
+            <section class="tab-panel" id="tab-requirements">
+                <div class="requirements-layout">
+                    <!-- Requirements list -->
+                    <div class="req-list-panel">
+                        <div class="panel-header">
+                            <h3>Requisitos Configurados</h3>
+                            <p>Definen los documentos solicitados a cada trabajador</p>
+                        </div>
+                        <div class="req-cards-grid" id="requirementsGrid">
+                            <!-- Populated dynamically by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Requirement Form -->
+                    <div class="req-form-panel">
+                        <div class="panel-header">
+                            <h3 id="reqFormTitle">Agregar Nuevo Requisito</h3>
+                            <p>Se creará y aplicará para todos los trabajadores registrados</p>
+                        </div>
+                        <form id="requirementForm" class="card-form">
+                            <input type="hidden" id="reqIdInput">
+                            <div class="form-group">
+                                <label for="reqNameInput" class="form-label">Nombre del Requisito *</label>
+                                <input type="text" id="reqNameInput" class="form-control" placeholder="Ej. Copia de Cédula de Identidad" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reqDescInput" class="form-label">Descripción o Base Legal</label>
+                                <textarea id="reqDescInput" class="form-control" rows="3" placeholder="Detalle por qué se solicita este documento y dónde se obtiene..."></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Prioridad Legal</label>
+                                <div class="radio-group">
+                                    <label class="radio-label">
+                                        <input type="radio" name="reqPriority" value="CRÍTICA" checked>
+                                        <span class="custom-radio red">CRÍTICA</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="reqPriority" value="ALTA">
+                                        <span class="custom-radio yellow">ALTA</span>
+                                    </label>
+                                    <label class="radio-label">
+                                        <input type="radio" name="reqPriority" value="MEDIA">
+                                        <span class="custom-radio gray">MEDIA</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-outline" id="cancelReqEditBtn">Limpiar Formulario</button>
+                                <button type="submit" class="btn btn-primary" id="saveReqBtn">Guardar Requisito</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Backup -->
+            <section class="tab-panel" id="tab-backup">
+                <div class="backup-grid">
+                    <div class="backup-card">
+                        <div class="card-icon"><i class="fa-solid fa-file-export"></i></div>
+                        <h3>Exportar Copia de Seguridad</h3>
+                        <p>Descarga un archivo con toda la información registrada (trabajadores, requisitos y estados de control). Guarda este archivo en tu computador como respaldo de seguridad.</p>
+                        <button class="btn btn-primary btn-block" id="exportDataBtn">
+                            <i class="fa-solid fa-download"></i> Descargar Respaldo (.json)
+                        </button>
+                    </div>
+
+                    <div class="backup-card">
+                        <div class="card-icon"><i class="fa-solid fa-file-import"></i></div>
+                        <h3>Importar Copia de Seguridad</h3>
+                        <p>Carga un archivo de respaldo (.json) guardado previamente. <strong class="text-warning">Atención:</strong> Esto reemplazará todos los datos actuales del navegador con la información del archivo cargado.</p>
+                        <div class="file-upload-box">
+                            <input type="file" id="importFileInput" accept=".json" class="hidden">
+                            <label for="importFileInput" class="file-upload-label">
+                                <i class="fa-solid fa-cloud-arrow-up"></i>
+                                <span>Seleccionar archivo .json</span>
+                            </label>
+                        </div>
+                        <button class="btn btn-outline btn-block" id="importDataBtn" disabled>
+                            <i class="fa-solid fa-upload"></i> Subir e Importar Respaldo
+                        </button>
+                    </div>
+
+                    <div class="backup-card span-2">
+                        <div class="card-icon"><i class="fa-solid fa-cloud text-info"></i></div>
+                        <h3>Sincronización en la Nube (Google Firebase - Opcional)</h3>
+                        <p>Conecta el sistema a tu base de datos en la nube de Firebase para sincronizar datos en tiempo real entre el fiscalizador (dueño) y los operadores (asistentes) desde diferentes computadoras.</p>
+                        <div class="cloud-sync-panel" style="width: 100%; text-align: left; margin-top: 10px;">
+                            <label class="form-label" style="display: flex; align-items: center; gap: 8px; cursor: pointer; margin-bottom: 15px;">
+                                <input type="checkbox" id="firebaseActiveCheckbox" style="width: 18px; height: 18px;">
+                                <span>Activar Sincronización en Tiempo Real con Firebase</span>
+                            </label>
+                            
+                            <div id="firebaseSettingsArea" class="hidden" style="display: flex; flex-direction: column; gap: 12px; padding: 16px; background: rgba(0,0,0,0.15); border-radius: 8px; border: 1px solid var(--border-color);">
+                                <p style="font-size: 12px; margin-bottom: 8px; color: var(--text-secondary);">
+                                    Pega la configuración SDK de tu aplicación web de Firebase (en formato JSON o solo los valores correspondientes):
+                                </p>
+                                <div class="form-group">
+                                    <label class="form-label">API Key</label>
+                                    <input type="text" id="fbApiKey" class="form-control" placeholder="AIzaSy...">
+                                </div>
+                                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                                    <div class="form-group">
+                                        <label class="form-label">Project ID</label>
+                                        <input type="text" id="fbProjectId" class="form-control" placeholder="xuri-control-db">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">App ID</label>
+                                        <input type="text" id="fbAppId" class="form-control" placeholder="1:12345:web:abcd...">
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary btn-block" id="saveFirebaseConfigBtn" style="margin-top: 10px;">
+                                    <i class="fa-solid fa-cloud-arrow-down"></i> Conectar y Sincronizar en la Nube
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="backup-card span-2 bg-glass-dark">
+                        <h3>Guía de Control de Documentos Físicos y Digitales</h3>
+                        <p>Para asegurar el 100% de cumplimiento legal y evitar multas graves ante el Ministerio del Trabajo de Ecuador (MDT) y el IESS, valide las carpetas de sus trabajadores considerando:</p>
+                        <div class="checklist-guide">
+                            <div class="guide-item">
+                                <i class="fa-solid fa-circle-check text-success"></i>
+                                <div>
+                                    <strong>Archivo Físico:</strong> El documento original o copia certificada debe reposar impreso en la carpeta archivadora física del trabajador con las firmas y huellas correspondientes.
+                                </div>
+                            </div>
+                            <div class="guide-item">
+                                <i class="fa-solid fa-cloud text-info"></i>
+                                <div>
+                                    <strong>Archivo Digital:</strong> El documento digitalizado (preferiblemente en formato PDF a color) cargado en la carpeta digital compartida (Google Drive, OneDrive o Servidor Local).
+                                </div>
+                            </div>
+                            <div class="guide-item">
+                                <i class="fa-solid fa-triangle-exclamation text-warning"></i>
+                                <div>
+                                    <strong>Reglamento Interno (RIT) y Actas:</strong> Exija la firma de entrega/socialización del RIT a cada operario y mantenga archivadas las 12 actas mensuales de Seguridad.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tab: Batch Load -->
+            <section class="tab-panel" id="tab-batch">
+                <div class="requirements-layout">
+                    <!-- Left side: Excel Workers Uploader -->
+                    <div class="req-list-panel">
+                        <div class="panel-header">
+                            <h3>Carga Masiva de Trabajadores desde Excel / CSV</h3>
+                            <p>Sube tu archivo de Excel con la nómina para registrar los trabajadores de golpe.</p>
+                        </div>
+                        <div class="card-form">
+                            <div class="guide-item" style="margin-bottom: 12px; background: rgba(255,255,255,0.02); padding: 12px; border-radius: 6px;">
+                                <i class="fa-solid fa-circle-info text-info" style="font-size: 18px; margin-top: 2px;"></i>
+                                <div style="font-size: 12px; line-height: 1.5; color: var(--text-secondary);">
+                                    <strong>Estructura del Excel:</strong> El archivo debe contener al menos las columnas de <code style="color: var(--accent);">Nombre Completo</code> y <code style="color: var(--accent);">Cédula</code> (de 10 dígitos). Opcionalmente puede tener <code style="color: var(--accent);">Cargo</code> y <code style="color: var(--accent);">Fecha de Ingreso</code>. La primera fila se considerará como encabezado.
+                                </div>
+                            </div>
+                            
+                            <!-- Excel file selector dropzone -->
+                            <div class="file-upload-box" style="margin-bottom: 15px;">
+                                <input type="file" id="batchWorkersExcelInput" accept=".xlsx, .xls, .csv" class="hidden">
+                                <label for="batchWorkersExcelInput" class="file-upload-label" id="excelUploadLabel" style="padding: 30px; border-color: var(--status-ok);">
+                                    <i class="fa-solid fa-file-excel" style="font-size: 40px; color: var(--status-ok); margin-bottom: 8px;"></i>
+                                    <span id="excelUploadFileName" style="font-weight: 600; color: var(--text-primary);">Seleccionar archivo Excel (.xlsx, .xls, .csv)</span>
+                                </label>
+                            </div>
+
+                            <button type="button" class="btn btn-primary btn-block" id="processBatchExcelBtn" disabled>
+                                <i class="fa-solid fa-cloud-arrow-up"></i> Procesar y Cargar desde Excel
+                            </button>
+
+                            <!-- Copy-Paste area as fallback (collapsible or secondary) -->
+                            <div style="margin-top: 24px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+                                <h4 style="font-size: 13px; margin-bottom: 12px; color: var(--text-secondary);">O copiar y pegar texto (Alternativa rápida)</h4>
+                                <div class="form-group">
+                                    <textarea id="batchWorkersTextArea" class="form-control" rows="4" placeholder="Pega filas aquí: Nombre&#9;Cédula&#9;Cargo&#9;Fecha"></textarea>
+                                </div>
+                                <div class="form-actions" style="margin-top: 10px;">
+                                    <button type="button" class="btn btn-outline btn-sm" id="clearBatchWorkersBtn">Limpiar</button>
+                                    <button type="button" class="btn btn-primary btn-sm" id="processBatchWorkersBtn">Cargar Texto</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right side: Requirements batch -->
+                    <div class="req-form-panel">
+                        <div class="panel-header">
+                            <h3>Carga Rápida de Requisitos</h3>
+                            <p>Agrega múltiples requisitos adicionales a la base del control.</p>
+                        </div>
+                        <div class="card-form">
+                            <div class="guide-item" style="margin-bottom: 12px; background: rgba(255,255,255,0.02); padding: 12px; border-radius: 6px;">
+                                <i class="fa-solid fa-circle-info text-info" style="font-size: 18px; margin-top: 2px;"></i>
+                                <div style="font-size: 12px; line-height: 1.5; color: var(--text-secondary);">
+                                    Escribe los nombres de los requisitos uno por línea. Opcionalmente puedes definir su prioridad separada por una coma (Ej: <code style="color: var(--accent);">Cédula, CRÍTICA</code> o <code style="color: var(--accent);">Hoja de Vida, MEDIA</code>). Si no pones prioridad, se asignará "MEDIA" por defecto.
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="batchReqsTextArea" class="form-label">Lista de Requisitos (uno por línea)</label>
+                                <textarea id="batchReqsTextArea" class="form-control" rows="8" placeholder="Ej.&#10;Copia de Cédula de Identidad, CRÍTICA&#10;Contrato de Confidencialidad, ALTA&#10;Historial Laboral del IESS, MEDIA"></textarea>
+                            </div>
+                            <div class="form-actions">
+                                <button type="button" class="btn btn-outline" id="clearBatchReqsBtn">Limpiar</button>
+                                <button type="button" class="btn btn-primary" id="processBatchReqsBtn">
+                                    <i class="fa-solid fa-folder-plus"></i> Cargar Requisitos
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modal: Add / Edit Worker -->
+    <div class="modal" id="workerModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="workerModalTitle">Registrar Nuevo Trabajador</h3>
+                <button class="btn-close" onclick="closeWorkerModal()">&times;</button>
+            </div>
+            <form id="workerForm">
+                <input type="hidden" id="workerIdInput">
+                <div class="form-group">
+                    <label for="workerNameInput" class="form-label">Nombre Completo *</label>
+                    <input type="text" id="workerNameInput" class="form-control" placeholder="Ej. Juan Carlos Pérez Torres" required>
+                </div>
+                <div class="form-group">
+                    <label for="workerIdCardInput" class="form-label">Cédula de Identidad *</label>
+                    <input type="text" id="workerIdCardInput" class="form-control" placeholder="Ej. 1204567890" maxlength="10" required>
+                </div>
+                <div class="form-group">
+                    <label for="workerCargoInput" class="form-label">Cargo / Puesto</label>
+                    <input type="text" id="workerCargoInput" class="form-control" placeholder="Ej. Operario de Picking / Cajero">
+                </div>
+                <div class="form-group">
+                    <label for="workerDateInput" class="form-label">Fecha de Ingreso</label>
+                    <input type="date" id="workerDateInput" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="workerStatusSelect" class="form-label">Estado de Expediente</label>
+                    <select id="workerStatusSelect" class="form-select">
+                        <option value="Pendiente">Pendiente</option>
+                        <option value="En Proceso" selected>En Proceso</option>
+                        <option value="OK">OK (Completado)</option>
+                    </select>
+                </div>
+                <div class="form-actions">
+                    <button type="button" class="btn btn-outline" onclick="closeWorkerModal()">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Registrar Trabajador</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal: Worker Document Matrix Checklist Details -->
+    <div class="modal modal-large" id="matrixModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <div class="modal-header-profile">
+                    <i class="fa-solid fa-circle-user avatar-icon"></i>
+                    <div>
+                        <h3 id="matrixWorkerName">Juan Pérez</h3>
+                        <p id="matrixWorkerSub">CI: 1204567890 | Cargo: Picking</p>
+                    </div>
+                </div>
+                <button class="btn-close" onclick="closeMatrixModal()">&times;</button>
+            </div>
+            <div class="modal-body scrollable">
+                <div class="matrix-summary-row">
+                    <div class="progress-bar-container">
+                        <span class="progress-label">Cumplimiento Particular</span>
+                        <div class="progress-bar-track">
+                            <div class="progress-bar-fill" id="matrixComplianceBar" style="width: 0%"></div>
+                        </div>
+                        <span class="progress-percentage" id="matrixCompliancePct">0%</span>
+                    </div>
+                    <div class="status-indicator">
+                        <span>Estado:</span>
+                        <select id="matrixWorkerStatus" class="form-select inline-select">
+                            <option value="Pendiente">Pendiente</option>
+                            <option value="En Proceso">En Proceso</option>
+                            <option value="OK">OK (Completado)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="matrix-list-header">
+                    <div class="col-req">Requisito Legal / Documento</div>
+                    <div class="col-check text-center">Físico</div>
+                    <div class="col-check text-center">Digital</div>
+                    <div class="col-status">Estado</div>
+                    <div class="col-obs">Observación / Detalle de Entrega</div>
+                </div>
+                
+                <div class="matrix-list-body" id="matrixRequirementsList">
+                    <!-- Populated dynamically by JS -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="closeMatrixModal()">Cerrar</button>
+                <button class="btn btn-primary" id="saveMatrixBtn">
+                    <i class="fa-solid fa-floppy-disk"></i> Guardar Cambios
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="toast hidden">
+        <i class="fa-solid fa-circle-info toast-icon"></i>
+        <span id="toastMessage">Operación realizada con éxito</span>
+    </div>
+
+    <!-- JS Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>

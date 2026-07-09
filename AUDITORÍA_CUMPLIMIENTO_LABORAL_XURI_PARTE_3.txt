@@ -1,0 +1,122 @@
+AUDITORÍA INTEGRAL DE CUMPLIMIENTO - PARTE 3 FINAL
+XURI S.A. | 67-100+ Trabajadores
+10. MATRIZ DE RIESGOS LEGALES (SEVERIDAD × PROBABILIDAD)
+Clasificación: ROJO (crítico) | AMARILLO (alto) | VERDE (medio)
+RIESGO
+SEVERIDAD
+PROBABILIDAD
+IMPACTO FINANCIERO
+NIVEL
+Sin contratos SUT
+Muy alta
+Muy alta
+Demanda reintegro + $30K+
+🔴 CRÍTICO
+Atrasos IESS
+Muy alta
+Alta
+Multa + intereses (5-20%)
+🔴 CRÍTICO
+Sin RIT aprobado
+Muy alta
+Muy alta
+Cualquier despido válido: Reintegro
+🔴 CRÍTICO
+Accidente SSO sin actas Comité
+Muy alta
+Media
+Responsabilidad patronal (ilimitado)
+🔴 CRÍTICO
+Décimos no pagados
+Alta
+Alta
+Demanda $72K+ + intereses
+🔴 CRÍTICO
+Sin Plan Igualdad
+Alta
+Alta
+Multa + demandas discriminación
+🟠 ALTO
+Vacaciones sin registro
+Media
+Alta
+Pasivo $16K+ a pagar
+🟠 ALTO
+Cuota discapacidad incumplida
+Media
+Alta
+Multa anual hasta 3 SBU
+🟠 ALTO
+Sin Técnico SSO
+Alta
+Media
+Multa SSO + responsabilidad
+🟠 ALTO
+11. CHECKLIST DE DOCUMENTOS REQUERIDOS EN XURI
+Marca ✅ SI EXISTE / ❌ NO EXISTE / ⚠️ INCOMPLETO
+ARCHIVOS Y REGISTROS LABORAL:
+□ Copias de 67 contratos firmados por ambas partes
+□ Registro SUT (impresión de portal MDT con estado)
+□ RIT aprobado por MDT + acta de socialización
+□ 67 firmas de aceptación del RIT (archivadas)
+□ Nómina mensual (últimos 12 meses)
+□ Registro de control de asistencia (6+ meses)
+□ Registro de horas extra (planilla autorizada)
+□ Registro de vacaciones por trabajador (acumulado)
+□ Registro de licencias médicas (certificados archivados)
+ARCHIVOS Y REGISTROS IESS:
+□ Carnet de afiliación de cada uno de los 67 (copias)
+□ Comprobantes de pago de aportes (últimos 12 meses)
+□ Declaración de política: Fondos de Reserva en IESS o empresa
+□ Listado actualizado en IESS (sin duplicados, sin omisiones)
+ARCHIVOS SSO (SEGURIDAD Y SALUD):
+□ Reglamento de Higiene y Seguridad aprobado por MDT + vigencia
+□ Matriz de riesgos por puesto (Picking, Carga, Descarga, Etc.)
+□ Registro de Técnico de Seguridad (contrato + certificado SESO)
+□ Registro de Médico Ocupacional (contrato externo o interno)
+□ Acta de conformación de Comité Paritario (3+3)
+□ 12 actas de reuniones mensuales Comité Paritario (última año)
+□ Registro de elección de representantes trabajadores
+□ Registro de entrega de EPP (casco, guantes, chaleco, botas) con firmas
+□ Registro de inspecciones mensuales (actas)
+□ Protocolo de accidentes (reporte a IESS, investigación)
+□ Exámenes ocupacionales anuales (67 trabajadores)
+ARCHIVOS INCLUSIÓN Y GÉNERO:
+□ Identificación de 3 trabajadores con discapacidad (carnets CONADIS)
+□ Plan de Igualdad y No Discriminación aprobado por MDT
+□ Análisis de brecha salarial (hombre vs mujer por puesto)
+□ Protocolo de Prevención de Acoso Laboral (socializado)
+□ Canales de denuncia anónima establecidos y comunicados
+□ Registro de capacitación en igualdad (última año)
+ANÁLISIS Y REPORTES:
+□ Cálculo de pasivos (décimos no pagados, vacaciones acumuladas)
+□ Proyección de costos laborales (hacia 100 personas)
+□ Matriz de riesgos legales (severidad × probabilidad)
+□ Cronograma de implementación de faltantes (30-180 días)
+12. RECOMENDACIONES FINALES PARA TOÑO / JONNATHAN
+📋 ACCIÓN INMEDIATA (PRÓXIMAS 2 SEMANAS):
+1. Auditoría SUT: Verificar que los 67 contratos estén registrados
+2. Auditoría IESS: Revisar pagos de aportes (sin atrasos)
+3. Solicitar RIT actual al MDT: Validar estado de aprobación
+4. Inventario de décimos/utilidades: ¿Están todos pagados? ¿Hay deuda?
+📋 ACCIONES MES 1 (DÍAS 15-30):
+1. Contratar Técnico de Seguridad (con certificado SESO)
+2. Constituir Comité Paritario (acta + 3+3 representantes)
+3. Auditoría de cuota discapacidad: 3 trabajadores con carnets CONADIS
+4. Iniciar redacción de Plan de Igualdad (envío a MDT)
+📋 ACCIONES MES 2-3 (DÍAS 45-90):
+1. Implementar matriz de riesgos + inspecciones mensuales
+2. Realizar exámenes ocupacionales a 67 (médico asignado)
+3. Primera reunión Comité Paritario (con acta)
+4. Socializar Protocolo de Acoso Laboral (canales anónimos)
+📋 ANTES DE LLEGAR A 100 PERSONAS (MESES 4-6):
+1. Plan de Igualdad APROBADO por MDT
+2. Presupuesto confirmado para Trabajador Social + Guardería
+3. Sistema de capacitaciones en SSO, Igualdad, Código del Trabajo
+4. Proyección de costos laborales verificada (si es viable)
+⚠️ ÚLTIMA RECOMENDACIÓN:
+Este documento es una auditoría INTERNA de cumplimiento. Cuando haya completado las acciones inmediatas y de mes 1, SOLICITE UNA AUDITORÍA EXTERNA de un consultor laboral independiente para validar que todo esté correcto. Esto protege a XURI y a Jonnathan ante inspecciones sorpresa del MDT o IESS.
+═══════════════════════════════════════════════════════════
+AUDITORÍA INTEGRAL FINALIZADA
+Documento confidencial - XURI S.A.
+Julio 8, 2026

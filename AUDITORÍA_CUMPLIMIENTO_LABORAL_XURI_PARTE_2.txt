@@ -1,0 +1,212 @@
+AUDITORÍA INTEGRAL DE CUMPLIMIENTO - PARTE 2
+XURI S.A. | Julio 2026
+3.3 PERSONAL ESPECIALIZADO EN SSO REQUERIDO
+CON 67 TRABAJADORES, XURI REQUIERE:
+1️⃣ TÉCNICO DE SEGURIDAD E HIGIENE
+• Certificado de idoneidad SESO (OBLIGATORIO)
+• Mínimo 40h/semana en SSO
+• Inspecciones mensuales, matriz riesgos, capacitaciones
+2️⃣ MÉDICO OCUPACIONAL
+• Especialidad en Medicina Ocupacional
+• Examen ocupacional anual a TODOS los 67
+• Puede ser externo (recomendado)
+✅ VERIFICACIÓN XURI:
+□ ¿Técnico SSO contratado (con certificado SESO)?
+□ ¿Médico ocupacional designado?
+□ ¿Exámenes ocupacionales realizados a 67?
+4. INCLUSIÓN, EQUIDAD Y GÉNERO
+4.1 CUOTA DE INCLUSIÓN PERSONAS CON DISCAPACIDAD (4%)
+CÁLCULO XURI:
+67 × 4% = 2.68 ≈ 3 TRABAJADORES CON DISCAPACIDAD REQUERIDOS
+¿QUÉ CUENTA COMO CUOTA?
+✓ Trabajadores con Carnet CONADIS (discapacidad acreditada)
+✓ Sustitutos legales: Madres niños discapacitados, mujeres víctimas violencia, LGTBI+, excarcelados
+SANCIONES:
+• Multa: 1 SBU por puesto vacío (hasta 3 SBU anuales)
+✅ VERIFICACIÓN XURI - CRÍTICA:
+□ ¿3 trabajadores con discapacidad identificados?
+□ ¿Carnets CONADIS archivados?
+□ ¿Si hay déficit: Pagadas multas anuales?
+4.2 PLAN DE IGUALDAD Y NO DISCRIMINACIÓN
+OBLIGATORIO: Empresas con 50+ (XURI ESTÁ OBLIGADA)
+CONTENIDO MÍNIMO:
+1. Diagnóstico de brecha salarial (hombre vs mujer)
+2. Política de igualdad salarial (igual salario = igual trabajo)
+3. Protocolo de denuncia acoso/discriminación (anónimo)
+4. Licencias: Maternidad (12 sem), Paternidad (10 días), Lactancia (1h/día)
+5. Capacitación anual en igualdad y no discriminación
+✅ VERIFICACIÓN XURI - IMPORTANTE:
+□ ¿Plan de Igualdad redactado y aprobado por MDT?
+□ ¿Análisis de brecha salarial (hombre vs mujer)?
+□ ¿Protocolo denuncia anónima operativo?
+□ ¿Capacitación en igualdad realizada (último año)?
+4.3 PROTOCOLO DE ACOSO LABORAL
+OBLIGATORIO: Acuerdo Ministerial 094-2019
+PROTOCOLO MÍNIMO:
+1. Canales de denuncia anónimos (email, teléfono, casilla física)
+2. Confidencialidad y protección contra represalias
+3. Investigación en máximo 30 días
+4. Sanciones definidas (despido justificado si probado)
+✅ VERIFICACIÓN XURI:
+□ ¿Protocolo redactado y socializado?
+□ ¿Canales anónima operativos?
+□ ¿Ha habido denuncias investigadas?
+5. SEGURIDAD SOCIAL - IESS
+5.1 AFILIACIÓN OBLIGATORIA Y APORTES
+OBLIGACIÓN: DÍA 1 DE TRABAJO (NO ESPERAR)
+⚠️ CÁLCULO MENSUAL XURI (67 × $500):
+Total nómina: $33,500/mes
+Aporte trabajador (10.90%): $3,652 (deducido salario)
+Aporte empleador (20.48%): $6,861 (costo XURI)
+TOTAL MENSUAL: $10,513
+ANUAL: $126,156 ⚠️
+✅ VERIFICACIÓN XURI - CRÍTICA:
+□ ¿Todos 67 afiliados al IESS?
+□ ¿Aportes pagados sin atrasos?
+□ ¿Fondos de reserva: IESS o empresa?
+□ ¿Registro IESS sin inconsistencias?
+6. MATRIZ INTEGRAL DE CUMPLIMIENTO Y VERIFICACIÓN
+INSTRUCCIONES DE USO: Revisa cada casilla. Marca ✅ = CUMPLIDO, ❌ = NO CUMPLIDO, ⚠️ = PARCIAL
+TEMA
+REQUISITO LEGAL
+ESTADO
+PRIORIDAD
+Contratos SUT
+67 contratos en registro MDT
+___
+CRÍTICA
+RIT Aprobado
+Reglamento Interno Trabajo con firmas socialización
+___
+CRÍTICA
+Control Asistencia
+Biométrico o registro 6+ meses
+___
+ALTA
+XIII Diciembre
+Pago antes 24 dic (67×$500/12=$ 2.792)
+___
+CRÍTICA
+XIV Agosto
+Pago antes 15 ago (Sierra)
+___
+CRÍTICA
+Utilidades
+Cálculo 5% si hay ganancias (antes 25 mar)
+___
+ALTA
+Afiliación IESS
+67 afiliados, aportes sin atrasos
+___
+CRÍTICA
+Reglamento SSO
+Vigente (renovación cada 2 años)
+___
+CRÍTICA
+Matriz Riesgos
+Por puesto (Picking, Carga, Descarga)
+___
+ALTA
+Comité Paritario
+3+3 representantes, 12 actas/año
+___
+CRÍTICA
+Técnico SSO
+Certificado SESO, 40h/semana
+___
+CRÍTICA
+Médico Ocupacional
+Exámenes anuales a 67
+___
+ALTA
+Cuota Discapacidad
+3 trabajadores con carnets CONADIS
+___
+ALTA
+Plan Igualdad
+Aprobado MDT + análisis brecha salarial
+___
+ALTA
+Protocolo Acoso
+Canales anónimos operativos
+___
+ALTA
+Vacaciones
+Registro y cálculo de acumulado
+___
+MEDIA
+Licencias Médicas
+Documentos + pago primeros 3 días
+___
+MEDIA
+7. CRONOGRAMA DE IMPLEMENTACIÓN (30-180 DÍAS)
+FASE
+PLAZO
+ACCIONES INMEDIATAS
+RESPONSABLE
+FASE 1
+Semana 1-2
+Auditoría SUT (verificar 67 contratos). Solicitar RIT a MDT. Audit IESS aportes.
+RRHH + Contabilidad
+FASE 1
+Semana 3-4
+Verificar cuota discapacidad (3 trabajadores). Recopilar cédulas. Crear checklist de brechas.
+RRHH
+FASE 2
+Mes 1 (30 días)
+Contratar Técnico SSO. Constituir Comité Paritario. Redactar Plan Igualdad.
+Gerencia + RRHH
+FASE 2
+Mes 2 (60 días)
+Implementar matriz riesgos. Realizar exámenes ocupacionales. Socializar Protocolo Acoso.
+Técnico SSO + Médico
+FASE 3
+Mes 3-6 (180 días)
+Validar aprobación MDT (RIT, Plan Igualdad). Implementar sistema capacitaciones. Preparar hacia 100+ personas.
+Gerencia General
+8. COSTEO ESTIMADO DE CUMPLIMIENTO A 100+ PERSONAS
+CONCEPTO
+MENSUAL
+ANUAL
+Salarios (100 × $500 promedio)
+$50,000
+$600,000
+Aportes IESS (20.48%)
+$10,240
+$122,880
+XIII y XIV ($41,667 anual)
+$3,472
+$41,667
+Técnico SSO (salario)
+$850
+$10,200
+Médico Ocupacional (externo)
+$1,500
+$18,000
+Trabajador Social (obligatorio >100)
+$650
+$7,800
+Guardería o bono (obligatorio >100)
+$4,000
+$48,000
+Capacitaciones SSO, Igualdad, Acoso
+$1,000
+$12,000
+TOTAL COSTO MENSUAL / ANUAL
+$21,712
+$260,547
+⚠️ NOTA: Esto es proyección a 100 personas con beneficios completos. XURI debe presupuestar $260K+ anuales en costos laborales directos.
+9. TRANSICIÓN A 100+ TRABAJADORES - NUEVAS OBLIGACIONES
+Al alcanzar 100 empleados, se ACTIVAN AUTOMÁTICAMENTE:
+1️⃣ TRABAJADOR/A SOCIAL TITULADO/A
+• Obligatorio por Código del Trabajo
+• Funciones: Licencias médicas, permisos especiales, apoyo a trabajadores vulnerables
+2️⃣ SERVICIO MÉDICO PERMANENTE
+• Consultorio físico equipado
+• O contrato con clínica externa acreditada
+3️⃣ SERVICIO DE GUARDERÍA
+• Pago de bono guardería ($4,000+/mes)
+• O centro de guardería propio
+═══════════════════════════════════════════════════════════
+FIN PARTE 2
+Próximo: PARTE 3 con Matriz de Riesgos Legales y Documentos Requeridos

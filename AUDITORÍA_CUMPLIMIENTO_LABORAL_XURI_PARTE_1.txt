@@ -1,0 +1,180 @@
+AUDITORÍA INTEGRAL DE CUMPLIMIENTO NORMATIVO LABORAL
+ECUADOR 2026
+XURI S.A. - Importadora y Distribuidora de Repuestos
+📍 La Troncal, Cañar | 👥 67 Trabajadores | 🎯 Proyección: 100+
+Fecha: 08 de julio de 2026
+⚠️ DOCUMENTO CONFIDENCIAL - USO INTERNO
+RIESGO: Multas hasta 20 SBU + Responsabilidad Patronal + Demandas Laborales
+TABLA DE CONTENIDOS
+1. Introducción y Contexto
+2. Pilar Laboral y Administrativo
+3. Seguridad y Salud Ocupacional
+4. Inclusión, Equidad y Género
+5. Seguridad Social - IESS
+6. Capacitaciones Obligatorias
+7. Matriz de Cumplimiento y Verificación
+8. Cronograma de Implementación
+9. Matriz de Riesgos Legales
+10. Costeo Estimado
+1. INTRODUCCIÓN Y CONTEXTO
+XURI S.A., como importadora y distribuidora de repuestos motociclistas con 67 trabajadores en La Troncal, Cañar, opera en marco de normativa ecuatoriana vigente. Esta auditoría integral de cumplimiento establece una línea base para identificar brechas y proteger a la empresa de sanciones, demandas y responsabilidad patronal.
+OBJETIVOS:
+✓ Identificar 100% de obligaciones legales vigentes en Ecuador 2026
+✓ Proporcionar matriz de verificación operativa
+✓ Establecer cronograma de implementación
+✓ Estimar costos de cumplimiento hacia 100+ personas
+RIESGOS DE INCUMPLIMIENTO:
+🔴 Multas: Hasta 20 SBU por concepto incumplido
+🔴 Demandas laborales: Reintegro + salarios caídos + indemnizaciones
+🔴 Responsabilidad patronal: Accidentes sin documentación = culpa patronal
+🔴 Bloqueo operacional: Clausura de actividades, embargos
+2. PILAR LABORAL Y ADMINISTRATIVO
+2.1 CONTRATACIÓN EN SUT (SISTEMA UNIFICADO DE TRABAJO)
+REQUISITO: Todos los 67 contratos DEBEN estar registrados en SUT del MDT
+CONTENIDO MÍNIMO CONTRATO:
+ELEMENTO
+DESCRIPCIÓN
+Identificación
+Cédula empleador, RUC empresa
+Puesto
+Descripción detallada de funciones
+Lugar
+Sede principal (La Troncal)
+Salario
+Íntegro con beneficios detallados
+Jornada
+Máximo 40h/semana, horario específico
+Duración
+Indefinido, plazo fijo (máx 3 años) o por obra
+IESS
+Afiliación automática desde día 1
+⚠️ PLAZO CRÍTICO: Contrato debe estar EN SUT ANTES de iniciar labores
+✅ VERIFICACIÓN XURI:
+□ ¿Todos los 67 contratos en SUT (verificar portal MDT)?
+□ ¿Copias de contratos archivadas y firmadas?
+□ ¿Contratos actualizados según cambios de puesto?
+2.2 REGLAMENTO INTERNO DE TRABAJO (RIT)
+OBLIGATORIO: Empresas con 10+ trabajadores (XURI ESTÁ OBLIGADA)
+CONTENIDO MÍNIMO:
+I.   DISPOSICIONES GENERALES: Ámbito, autoridades, relaciones
+II.  JORNADA: Máximo 40h/semana, horarios, descansos
+III. DESCANSO Y VACACIONES: 1 día semanal, feriados, 15 días vacaciones
+IV.  SALARIO Y BENEFICIOS: Monto, décimos (XIII, XIV), utilidades
+V.   OBLIGACIONES LABORALES: Deberes empleador, trabajador, conducta
+VI.  CAUSALES DE DESPIDO: Causales justificadas (robo, inasistencia, negligencia)
+VII. DISCIPLINA: Apercibimiento → Suspensión → Despido
+VIII. SEGURIDAD: Referencia SSO, Comité Paritario, EPP
+IX.  RESOLUCIÓN DE CONFLICTOS: Conciliación interna antes demanda
+⚠️ SIN RIT APROBADO = CUALQUIER DESPIDO PUEDE IMPUGNARSE Y GANAR DEMANDA
+✅ VERIFICACIÓN XURI:
+□ ¿RIT aprobado por MDT (verificar vigencia)?
+□ ¿Firmas individuales de aceptación archivadas?
+□ ¿Acta de asamblea de socialización?
+2.3 JORNADA LABORAL Y CONTROL DE ASISTENCIA
+✓ Jornada máxima: 40 horas/semana
+✓ Registro obligatorio: Entrada/Salida (biométrico recomendado)
+✓ Horas extra: Tiempo y media (50%) - Máximo 4h/día, 20h/semana
+✓ Descanso semanal: Mínimo 1 día (generalmente domingo)
+✅ VERIFICACIÓN XURI:
+□ ¿Sistema de control asistencia (biométrico)?
+□ ¿Registros con mínimo 6 meses de historial?
+□ ¿Planilla de horas extra con autorización?
+□ ¿Pago de horas extra identificado en nómina?
+2.4 DESCANSOS, VACACIONES Y LICENCIAS
+DESCANSO SEMANAL:
+• Mínimo 1 día de descanso + 1 día festivo = 2 días/semana
+VACACIONES:
+• Se acumulan después de 1 año de trabajo
+• Mínimo 15 días anuales (puede acumularse máximo 2 años)
+• Pago 100% salario base + beneficios proporcionales
+LICENCIAS MÉDICAS:
+• Primeros 3 días: Pago empresa (salario completo)
+• A partir día 4: IESS paga 75% (empresa completa si corresponde)
+• Certificado médico obligatorio
+⚠️ CÁLCULO VACACIONES NO DISFRUTADAS (PASIVO POTENCIAL):
+67 trabajadores × 15 días × promedio $16.67/día = $16,735 PASIVO NO REGISTRADO
+✅ VERIFICACIÓN XURI:
+□ ¿Registro de vacaciones otorgadas (archivo)?
+□ ¿Acumulado de vacaciones pendientes por trabajador?
+□ ¿Política de licencias médicas documentada?
+2.5 SALARIO, DÉCIMOS Y UTILIDADES (CRÍTICO)
+SALARIO BÁSICO:
+✓ Mínimo: SBU 2026 (verificar actualización anual)
+✓ No puede fraccionarse ni engañosamente distribuirse
+DÉCIMO TERCER SUELDO (XIII):
+✓ Equivalente a 1/12 del salario anual (base + comisiones)
+✓ Pago obligatorio: Antes del 24 de diciembre
+DÉCIMO CUARTO SUELDO (XIV):
+✓ Equivalente a 1/12 del salario anual (base, SIN comisiones)
+✓ Pago obligatorio: Antes del 15 de agosto (región Sierra)
+UTILIDADES O GANANCIAS:
+✓ Participación mínima 5% de utilidades anuales (si hay)
+✓ Distribución: 5% partes iguales + 5% proporcional salario + 10% discrecional
+✓ Pago obligatorio: Antes del 25 de marzo (si hubo utilidades)
+⚠️ CÁLCULO CRÍTICO PASIVO XURI (Salario promedio $500):
+CONCEPTO
+MENSUAL
+ANUAL
+XIII (diciembre)
+$2,792
+$33,500
+XIV (agosto)
+$2,792
+$33,500
+Utilidades 5% (si utilidades)
+$417
+$5,000
+TOTAL PASIVO ANUAL
+$72,000+
+❓ ¿XURI TIENE ESTOS $72,000+ EN BALANCE CONTABLE?
+✅ VERIFICACIÓN XURI - CRÍTICA:
+□ ¿Nómina registra XIII y XIV correctamente?
+□ ¿Pasivo contable para décimos no pagados?
+□ ¿Cálculo de utilidades transparente y auditado?
+□ ¿Política de fondos de reserva (IESS vs empresa) definida?
+3. SEGURIDAD Y SALUD OCUPACIONAL (SSO)
+3.1 REGLAMENTO DE HIGIENE Y SEGURIDAD
+OBLIGATORIO: Todas las empresas
+BASE LEGAL: Decreto 2393 (1986), Acuerdo Ministerial 068-2015
+CONTENIDO OBLIGATORIO:
+1. Política de SSO con compromiso de recursos
+2. Matriz de riesgos por puesto (Picking, Carga, Descarga, Montacargas)
+3. Especificación EPP requerido por puesto + política de dotación
+4. Procedimiento de inspecciones mensuales (registro actas)
+5. Protocolo de accidentes: Reporte IESS en 24-48 hrs + investigación
+6. Procedimiento de capacitaciones en SSO (mínimo 8h/año)
+⚠️ VIGENCIA: DEBE RENOVARSE CADA 2 AÑOS
+✅ VERIFICACIÓN XURI:
+□ ¿Reglamento SSO vigente y aprobado por MDT?
+□ ¿Matriz de riesgos actualizada por puesto?
+□ ¿Registro de entrega EPP con firmas?
+□ ¿Inspecciones mensuales documentadas (12 actas/año)?
+3.2 COMITÉ PARITARIO DE SEGURIDAD
+OBLIGATORIO: Todas las empresas con 10+ trabajadores
+COMPOSICIÓN:
+• 3 representantes empleador (incluye Técnico SSO)
+• 3 representantes trabajadores (elegidos democráticamente)
+REUNIONES: Mínimo 1 vez al mes
+DOCUMENTACIÓN:
+✓ Acta de conformación (con firmas)
+✓ 12 actas mensuales (orden del día, decisiones, firmas)
+✓ Registro de elecciones de representantes (cada 2 años)
+✓ Matriz de seguimiento a recomendaciones
+🔴 RIESGO CRÍTICO: Sin actas del Comité ante accidente → CULPA PATRONAL DIRECTA
+✅ VERIFICACIÓN XURI:
+□ ¿Comité Paritario constituido formalmente?
+□ ¿Actas de reuniones mensuales (últimos 12 meses)?
+□ ¿Representantes elegidos democráticamente (acta elección)?
+□ ¿Matriz de seguimiento a acciones recomendadas?
+═════════════════════════════════════════════════════════════
+DOCUMENTO PARTE 1 COMPLETA
+Descarga la PARTE 2 para ver:
+• Sección 3.3: Personal Especializado SSO
+• Sección 4: Inclusión, Equidad y Género
+• Sección 5: Seguridad Social IESS
+• Sección 6: Capacitaciones Obligatorias
+• Sección 7: MATRIZ INTEGRAL DE CUMPLIMIENTO (Checklist completo)
+• Sección 8: CRONOGRAMA DE IMPLEMENTACIÓN (30-180 días)
+• Sección 9: MATRIZ DE RIESGOS LEGALES
+• Sección 10: COSTEO ESTIMADO DE CUMPLIMIENTO
+• Sección 11: TRANSICIÓN A 100+ TRABAJADORES

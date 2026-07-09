@@ -1,0 +1,128 @@
+GUÍA PRÁCTICA DE CUMPLIMIENTO LABORAL PARA XURI S.A.
+EN LENGUAJE CLARO Y SIMPLE
+¿Por qué existe cada obligación? ¿Qué pasa si no cumples? ¿Cuánto cuesta no hacerlo?
+═══════════════════════════════════════════════════════════
+1️⃣ CONTRATO EN SUT - ¿QUÉ ES Y POR QUÉ IMPORTA?
+EXPLICACIÓN SIMPLE:
+Imagina que contratas a alguien para trabajar en XURI. Tú firma un contrato en papel. Pero ESE CONTRATO en papel solo significa algo entre ustedes dos.
+El GOBIERNO ECUATORIANO tiene un sistema llamado SUT (Sistema Unificado de Trabajo). Es como un registro oficial de "todos los que trabajan en Ecuador están aquí registrados".
+Si TÚ NO registras el contrato en SUT, es como si ese trabajo NO EXISTIERA legalmente. El trabajador puede ir a un juez y decir: "No me contrataron legalmente" - y el juez le cree porque no está en SUT.
+EJEMPLO REAL:
+Tu contrataste a Juan para Picking. Juan trabaja 2 años sin problema. Luego Juan quiere más salario y TÚ dices "no". Juan decide demandar. Lleva al juez y dice: "Trabajé 2 años sin contrato registrado en SUT". El juez pregunta: "¿Dónde está en SUT?" TÚ dices: "Aquí está el papel que firmamos". El juez responde: "Eso no vale, si no está en SUT, no existía legalmente. Pague 2 años de salarios".
+COSTOS SI NO CUMPLES:
+1 trabajador sin contrato SUT × 2 años:
+→ Debe pagar 24 meses de salario: $12,000
+→ XIII y XIV que nunca pagaste: $8,333
+→ Daño moral (porque fue "injusticia"): $2,000-$5,000
+→ Multa del gobierno: $2,800
+TOTAL: $25,000-$28,000 POR UNA SOLA PERSONA
+Y XURI TIENE 67 TRABAJADORES...
+¿QUÉ HACER?
+✓ Entrar a https://www.trabajo.gob.ec (Ministerio del Trabajo)
+✓ Buscar "SUT" y verificar que TODOS LOS 67 estén registrados
+✓ Si alguno está faltando → Registrar YA MISMO (es GRATIS y toma 10 minutos)
+2️⃣ REGLAMENTO INTERNO DE TRABAJO (RIT) - ¿POR QUÉ LO NECESITAS?
+EXPLICACIÓN SIMPLE:
+El RIT es como el "Manual de Reglas" de XURI. Define qué comportamientos están permitidos y cuáles resultan en despido.
+Por ejemplo: "Si llego tarde 3 días sin justificar, me pueden despedir".
+PROBLEMA: Si NO tienes RIT aprobado por el gobierno:
+Cuando DESPIDES a alguien, el trabajador puede ir al juez y decir: "Me despidieron sin razón". El juez pregunta: "¿Cuál era la razón?" TÚ respondes: "Llegaba tarde". El juez dice: "¿Dónde está escrito que llegar tarde es causal de despido?" TÚ dices: "En nuestro RIT". El juez responde: "¿Dónde está el RIT aprobado por MDT?" TÚ no lo tienes. El juez sentencia: "Despido sin justificación válida. PAGUE."
+EJEMPLO REAL:
+XURI despide a un operario por robo de mercancía (algo grave). Pero no tiene RIT aprobado. El operario demanda diciendo "fue injusto". El juez dice: "¿Donde está el RIT que demuestra que robo es causal?" → XURI pierde. Debe pagar:
+→ 6-12 meses de salarios (mientras dura juicio)
+→ XIII y XIV adeudados
+→ Daño moral ($3,000-$5,000)
+TOTAL: $9,000-$15,000 POR UN DESPIDO SIN RIT
+¿QUÉ HACER?
+✓ VERIFICAR: ¿XURI ya tiene RIT aprobado por MDT?
+✓ Si NO lo tiene: Contactar a Ministerio del Trabajo para hacer uno (costo ~$500-$1,000)
+✓ Una vez aprobado: Mostrar a TODOS los trabajadores y obtener firma de cada uno diciendo "lo leí y lo acepto"
+3️⃣ DÉCIMO TERCER SUELDO (XIII) - EL BONO DE DICIEMBRE
+EXPLICACIÓN SIMPLE:
+La ley ecuatoriana dice: todo trabajador que labore un año completo tiene derecho a un BONO en diciembre. Este bono = 1 mes de salario.
+Ejemplo: Si Juan gana $500/mes, en diciembre debe recibir $500 adicional como XIII.
+NO ES UN REGALO. Es dinero que Juan YA GANÓ durante el año. La ley solo dice cuándo pagarlo: antes del 24 de diciembre.
+QUÉ PASA SI NO LO PAGAS:
+El trabajador puede demandar diciendo "no me pagaron XIII". Además, le cargan INTERESES (dinero extra por la demora). Es como si hubieras tomado prestado dinero y tienes que devolver más de lo que tomaste.
+CÁLCULO PARA XURI:
+67 trabajadores × $500 de salario promedio = XIII anual de $33,500
+SI NO PAGAS XIII DURANTE 2 AÑOS:
+→ XIII adeudado (2 años): $67,000
+→ Intereses (10% anual): $13,400
+→ Multa del gobierno: $2,800
+TOTAL: $83,200 POR NO PAGAR BONIFICACIÓN
+¿QUÉ HACER?
+✓ Verificar en NÓMINA: ¿Está registrado XIII todos los diciembre?
+✓ Si hay años sin XIII: Calcular cuánto se debe y PAGAR INMEDIATAMENTE
+✓ Crear recordatorio anual: "Pagar XIII antes del 24 de diciembre"
+4️⃣ AFILIACIÓN AL IESS - EL SEGURO SOCIAL
+EXPLICACIÓN SIMPLE:
+El IESS es el seguro de salud del Ecuador. Es como un "fondo común" donde todos los trabajadores aportan dinero. Ese dinero paga médicos, medicinas, hospitales cuando alguien se enferma.
+Cuando TÚ contratas a alguien, la LEY dice: "Ese trabajador DEBE estar afiliado al IESS desde el DÍA 1". No opcional. Es obligatorio.
+¿CÓMO FUNCIONA?
+Del salario del trabajador se descuenta un porcentaje (10.90%) y TÚ, como empleador, también contribuyes (20.48%). Este dinero va al IESS.
+Ejemplo: Si Juan gana $500, del dinero se descuenta ~$55 para IESS. Y XURI debe pagar $102 adicional al IESS por Juan.
+QUÉ PASA SI NO PAGAS APORTES AL IESS:
+El IESS es SERIO. Si no pagas, pueden:
+1. EMBARGO: Entrar a tu banco y sacar dinero DIRECTAMENTE (sin pedirte permiso)
+2. MULTA: Cobran extra (5-20% del dinero no pagado)
+3. CLAUSURA: Cerrar XURI hasta que pagues
+CÁLCULO PARA XURI:
+67 trabajadores × $500 salario = $33,500 nómina mensual
+Aporte de XURI al IESS (20.48%): $6,861 MENSUAL
+SI NO PAGAS DURANTE 3 MESES:
+→ Dinero no pagado: $20,583
+→ Multa IESS (10%): $2,058
+→ Multa adicional por atraso: $2,800
+TOTAL: $25,441 POR 3 MESES DE ATRASO
+¿QUÉ HACER?
+✓ Presupuestar $6,861 MENSUAL para IESS (es obligatorio)
+✓ Pagar ANTES del día 15 de cada mes (fecha límite)
+✓ Guardar comprobantes de pago
+5️⃣ COMITÉ PARITARIO DE SEGURIDAD - LA PROTECCIÓN MÁS IMPORTANTE
+EXPLICACIÓN SIMPLE:
+El Comité Paritario es un grupo de personas (3 de la empresa, 3 de los trabajadores) que se reúnen CADA MES para hablar de SEGURIDAD en el trabajo.
+"¿Es seguro el Picking?" "¿Tenemos cascos?" "¿Hay riesgos de accidente?"
+IMPORTANTE: De CADA REUNIÓN hacen un ACTA (documento que dice qué se habló, qué se decidió).
+¿POR QUÉ IMPORTA TANTO?
+Si un trabajador sufre un ACCIDENTE (se cae, se electrocuta, le cae algo) y resulta herido, puede demandar a XURI diciendo: "La empresa no cuidaba la seguridad".
+PERO: Si tienes ACTAS del Comité Paritario de los últimos 12 meses, puedes demostrar: "MIRA, cada mes hablamos de seguridad, revisamos riesgos, coordinamos mejoras". El juez ve las actas y dice: "Sí, la empresa estaba cuidando la seguridad".
+SIN ACTAS:
+Cuando el trabajador accidentado demanda, TÚ NO TIENES PRUEBA de que cuidabas seguridad. El juez asume: "XURI no se preocupaba por seguridad" → XURI PIERDE.
+COSTO DE UN ACCIDENTE SIN ACTAS:
+Ejemplo: Un operario se cae y se fractura el brazo:
+→ Hospital y medicinas: $8,000
+→ Salario durante incapacidad (6 meses): $3,000
+→ Daño moral por negligencia: $5,000-$10,000
+TOTAL: $16,000-$21,000 POR UN ACCIDENTE
+¿QUÉ HACER?
+✓ Formar el Comité: 3 de XURI (Gerente, RRHH, Técnico SSO) + 3 trabajadores
+✓ Reunirse CADA MES (segundo miércoles, por ejemplo)
+✓ Hacer ACTA de cada reunión (qué se habló, qué se decidió, firma de todos)
+✓ GUARDAR TODAS LAS ACTAS (12 al año)
+═══════════════════════════════════════════════════════════
+RESUMEN: CUÁNTO CUESTA NO CUMPLIR (POR INCUMPLIMIENTO)
+OBLIGACIÓN
+QUÉ PASA SI NO CUMPLES
+COSTO
+Contrato en SUT
+Trabajador demanda "nunca fui contratado"
+$25,000+
+RIT aprobado
+Despido se anula, pierdes juicio
+$9,600+
+Pagar XIII en diciembre
+Demanda + intereses (2 años atraso)
+$83,200
+Aportes IESS mensuales
+Embargo + multa (3 meses atraso)
+$25,440
+Comité Paritario + actas
+Accidente → responsabilidad completa
+$20,000+
+EXPOSICIÓN TOTAL
+$163,240+
+CONCLUSIÓN PARA JONNATHAN:
+Si XURI no cumple estas 5 cosas BÁSICAS, la exposición financiera es MÍNIMO $163,000.
+Dicho de otra forma: XURI está jugando con FUEGO. Un solo accidente, una demanda, un inspector del gobierno = pérdida de decenas de miles de dólares.
+Invertir $20,000-$30,000 AHORA en poner todo en orden es el mejor "seguro" que puede comprar Jonnathan.
